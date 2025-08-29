@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog proizvoda | CleanPro Distribution</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="logo">CleanPro</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Početna</a></li>
+        <li><a href="about.html">O nama</a></li>
+        <li><a href="services.html">Usluge</a></li>
+        <li><a href="katalog.html" class="active">Katalog</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="catalog-section">
+    <div class="container">
+      <h2>Naš katalog proizvoda</h2>
+      <p>Pregledajte našu ponudu kvalitetnih proizvoda za čišćenje i higijenu</p>
+      
+      <div class="catalog-filters">
+        <button class="filter-btn active" data-category="all">Svi proizvodi</button>
+        <button class="filter-btn" data-category="hemija">Industrijska hemija</button>
+        <button class="filter-btn" data-category="higijena">Higijenski materijal</button>
+        <button class="filter-btn" data-category="oprema">Potrošna oprema</button>
+      </div>
+
+      <div class="products-catalog">
+        <!-- Industrijska hemija -->
+        <div class="product-item" data-category="hemija">
+          <div class="product-image">
+            <img src="images/detergent-podovi.jpg" alt="Sredstvo za podove" onerror="this.src='https://via.placeholder.com/300x200/10B981/ffffff?text=Sredstvo+za+podove'">
+          </div>
+          <div class="product-info">
+            <h3>Sredstvo za podove</h3>
+            <p>Profesionalno sredstvo za čišćenje svih vrsta podova</p>
+            <div class="product-specs">
+              <span class="spec">5L kanister</span>
+              <span class="spec">Koncentrat</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="hemija">
+          <div class="product-image">
+            <img src="images/dezinfekcija.jpg" alt="Dezinfekcija" onerror="this.src='https://via.placeholder.com/300x200/3B82F6/ffffff?text=Dezinfekcija'">
+          </div>
+          <div class="product-info">
+            <h3>Dezinfekcija</h3>
+            <p>Efikasno sredstvo za dezinfekciju površina</p>
+            <div class="product-specs">
+              <span class="spec">1L boca</span>
+              <span class="spec">Sprej</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="hemija">
+          <div class="product-image">
+            <img src="images/sapun.jpg" alt="Sapun" onerror="this.src='https://via.placeholder.com/300x200/F59E0B/ffffff?text=Sapun'">
+          </div>
+          <div class="product-info">
+            <h3>Sapun</h3>
+            <p>Prirodni sapun za ruke i ličnu higijenu</p>
+            <div class="product-specs">
+              <span class="spec">500ml</span>
+              <span class="spec">Antibakterijski</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Higijenski materijal -->
+        <div class="product-item" data-category="higijena">
+          <div class="product-image">
+            <img src="images/toalet-papir.jpg" alt="Toalet papir" onerror="this.src='https://via.placeholder.com/300x200/8B5CF6/ffffff?text=Toalet+papir'">
+          </div>
+          <div class="product-info">
+            <h3>Toalet papir</h3>
+            <p>Kvalitetan toalet papir za poslovne objekte</p>
+            <div class="product-specs">
+              <span class="spec">2-slojni</span>
+              <span class="spec">Rola 200m</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="higijena">
+          <div class="product-image">
+            <img src="images/papirni-ubrusi.jpg" alt="Papirni ubrusi" onerror="this.src='https://via.placeholder.com/300x200/EF4444/ffffff?text=Papirni+ubrusi'">
+          </div>
+          <div class="product-info">
+            <h3>Papirni ubrusi</h3>
+            <p>Upijajući papirni ubrusi za kuhinje i toalete</p>
+            <div class="product-specs">
+              <span class="spec">2-slojni</span>
+              <span class="spec">Kutija 200 kom</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="higijena">
+          <div class="product-image">
+            <img src="images/dezinfekcija-ruke.jpg" alt="Dezinfekcija za ruke" onerror="this.src='https://via.placeholder.com/300x200/06B6D4/ffffff?text=Dezinfekcija+za+ruke'">
+          </div>
+          <div class="product-info">
+            <h3>Dezinfekcija za ruke</h3>
+            <p>Gel za dezinfekciju ruku bez ispiranja</p>
+            <div class="product-specs">
+              <span class="spec">500ml</span>
+              <span class="spec">Bez alkohola</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Potrošna oprema -->
+        <div class="product-item" data-category="oprema">
+          <div class="product-image">
+            <img src="images/htz-rukavice.jpg" alt="HTZ rukavice" onerror="this.src='https://via.placeholder.com/300x200/84CC16/ffffff?text=HTZ+rukavice'">
+          </div>
+          <div class="product-info">
+            <h3>HTZ rukavice</h3>
+            <p>Jednokratne rukavice za higijenu i zaštitu</p>
+            <div class="product-specs">
+              <span class="spec">Latex</span>
+              <span class="spec">Pakovanje 100 kom</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="oprema">
+          <div class="product-image">
+            <img src="images/maske.jpg" alt="Maske" onerror="this.src='https://via.placeholder.com/300x200/EC4899/ffffff?text=Maske'">
+          </div>
+          <div class="product-info">
+            <h3>Maske</h3>
+            <p>Jednokratne maske za ličnu zaštitu</p>
+            <div class="product-specs">
+              <span class="spec">3-slojne</span>
+              <span class="spec">Pakovanje 50 kom</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-item" data-category="oprema">
+          <div class="product-image">
+            <img src="images/kante-otpad.jpg" alt="Kante za otpad" onerror="this.src='https://via.placeholder.com/300x200/6B7280/ffffff?text=Kante+za+otpad'">
+          </div>
+          <div class="product-info">
+            <h3>Kante za otpad</h3>
+            <p>Kvalitetne kante za otpad različitih veličina</p>
+            <div class="product-specs">
+              <span class="spec">20L</span>
+              <span class="spec">Sa poklopcem</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div>© 2024 CleanPro Distribucija</div>
+      <div>info@cleanpro.rs | +381 60 123 4567</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CleanPro Distribution - Profesionalna distribucija hemije za čišćenje</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  <header class="main-header">
+    <nav class="navbar">
+      <div class="logo">CleanPro</div>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Početna</a></li>
+        <li><a href="about.html">O nama</a></li>
+        <li><a href="services.html">Usluge</a></li>
+        <li><a href="katalog.html">Katalog</a></li>
+        <li><a href="contact.html">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero sekcija -->
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h1>Profesionalna distribucija hemije za čišćenje</h1>
+      <p class="subtitle">Obezbeđujemo kvalitetne proizvode za čišćenje i higijenu za firme širom Srbije</p>
+      <a href="contact.html" class="cta-btn">Naručite sada</a>
+    </div>
+  </section>
+
+  <!-- Usluge preview -->
+  <section class="services-preview">
+    <div class="container">
+      <h2>Naše usluge</h2>
+      <div class="services-cards">
+        <div class="service-card">
+          <div class="icon">
+            <i class="fas fa-spray-can"></i>
+          </div>
+          <h3>Industrijska hemija</h3>
+          <p>Profesionalna sredstva za čišćenje svih vrsta površina</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">
+            <i class="fas fa-toilet-paper"></i>
+          </div>
+          <h3>Higijenski materijal</h3>
+          <p>Toalet papir, papirni ubrusi, sapuni i dezinfekcija</p>
+        </div>
+        <div class="service-card">
+          <div class="icon">
+            <i class="fas fa-boxes"></i>
+          </div>
+          <h3>Potrošna oprema</h3>
+          <p>HTZ rukavice, maske, kante za otpad i ostala oprema</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Zašto mi -->
+  <section class="why-us">
+    <div class="container">
+      <h2>Zašto izabrati CleanPro?</h2>
+      <div class="why-us-list">
+        <div class="why-item">
+          <div class="icon">
+            <i class="fas fa-truck"></i>
+          </div>
+          <div>
+            <h3>Brza isporuka</h3>
+            <p>Isporuka u roku od 24h na teritoriji cele Srbije</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="icon">
+            <i class="fas fa-certificate"></i>
+          </div>
+          <div>
+            <h3>Kvalitetni proizvodi</h3>
+            <p>Provereni proizvodi od poznatih proizvođača</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="icon">
+            <i class="fas fa-headset"></i>
+          </div>
+          <div>
+            <h3>24/7 podrška</h3>
+            <p>Stručna podrška i savetovanje za sve vaše potrebe</p>
+          </div>
+        </div>
+        <div class="why-item">
+          <div class="icon">
+            <i class="fas fa-percentage"></i>
+          </div>
+          <div>
+            <h3>Povoljne cene</h3>
+            <p>Najbolje cene za velike količine i redovne kupce</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Narudžbenica sekcija -->
+  <section class="order-section">
+    <div class="container">
+      <h2>Brza narudžbenica</h2>
+      <p>Izaberite proizvode koje vam trebaju i pošaljite nam narudžbinu</p>
+      
+      <form class="order-form" id="orderForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="company">Naziv firme *</label>
+            <input type="text" id="company" name="company" required>
+          </div>
+          <div class="form-group">
+            <label for="contact">Kontakt (email/telefon) *</label>
+            <input type="text" id="contact" name="contact" required>
+          </div>
+        </div>
+
+        <div class="products-section">
+          <h3>Izaberite proizvode:</h3>
+          <div class="products-grid">
+            <label class="product-checkbox">
+              <input type="checkbox" name="products" value="Toalet papir">
+              <span class="checkmark"></span>
+              Toalet papir
+            </label>
+            <label class="product-checkbox">
+              <input type="checkbox" name="products" value="Sredstvo za podove">
+              <span class="checkmark"></span>
+              Sredstvo za podove
+            </label>
+            <label class="product-checkbox">
+              <input type="checkbox" name="products" value="Dezinfekcija">
+              <span class="checkmark"></span>
+              Dezinfekcija
+            </label>
+            <label class="product-checkbox">
+              <input type="checkbox" name="products" value="Papirni ubrusi">
+              <span class="checkmark"></span>
+              Papirni ubrusi
+            </label>
+            <label class="product-checkbox">
+              <input type="checkbox" name="products" value="HTZ rukavice">
+              <span class="checkmark"></span>
+              HTZ rukavice
+            </label>
+            <label class="product-checkbox">
+              <input type="checkbox" name="products" value="Maske">
+              <span class="checkmark"></span>
+              Maske
+            </label>
+            <label class="product-checkbox">
+              <input type="checkbox" name="products" value="Sapun">
+              <span class="checkmark"></span>
+              Sapun
+            </label>
+            <label class="product-checkbox">
+              <input type="checkbox" name="products" value="Kante za otpad">
+              <span class="checkmark"></span>
+              Kante za otpad
+            </label>
+          </div>
+        </div>
+
+        <button type="submit" class="cta-btn">Pošalji narudžbinu</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-content">
+      <div>© 2024 CleanPro Distribucija</div>
+      <div>info@cleanpro.rs | +381 60 123 4567</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html> 

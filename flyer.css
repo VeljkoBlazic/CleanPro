@@ -1,0 +1,229 @@
+body.flyer-front, body.flyer-back {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #111827;
+  background: #F1F5F9;
+  margin: 0;
+  padding: 0;
+}
+.flyer-container {
+  width: 210mm;
+  min-height: 297mm;
+  max-width: 100vw;
+  margin: 0 auto;
+  background: #fff;
+  box-shadow: 0 4px 32px rgba(30,58,138,0.10);
+  padding: 32px 36px 24px 36px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+}
+.flyer-header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 18px;
+}
+.flyer-logo {
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 900;
+  font-size: 2.7rem;
+  letter-spacing: 1.5px;
+  color: #1E3A8A;
+  margin-bottom: 0.2em;
+}
+.flyer-slogan {
+  font-size: 1.25rem;
+  color: #10B981;
+  font-weight: 700;
+  margin-bottom: 0.7em;
+}
+.flyer-hero-img {
+  width: 100%;
+  margin-bottom: 1.2em;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(30,58,138,0.10);
+}
+.flyer-hero-img img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+.flyer-about {
+  margin-bottom: 1.2em;
+}
+.flyer-about h2 {
+  font-family: 'Montserrat', Arial, sans-serif;
+  color: #1E3A8A;
+  font-size: 1.3rem;
+  margin-bottom: 0.3em;
+}
+.flyer-about p {
+  font-size: 1.08rem;
+  color: #111827;
+  margin: 0;
+}
+.flyer-benefits {
+  margin-bottom: 1.2em;
+}
+.flyer-benefits h3 {
+  color: #1E3A8A;
+  font-size: 1.1rem;
+  margin-bottom: 0.3em;
+}
+.flyer-benefits ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em 2.2em;
+}
+.flyer-benefits li {
+  font-size: 1.05rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.flyer-categories {
+  margin-bottom: 1.2em;
+}
+.flyer-categories h3 {
+  color: #1E3A8A;
+  font-size: 1.1rem;
+  margin-bottom: 0.5em;
+}
+.flyer-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.1em 2.2em;
+}
+.flyer-card {
+  background: #F1F5F9;
+  border-radius: 12px;
+  box-shadow: 0 1px 6px rgba(30,58,138,0.06);
+  padding: 0.7em 1.2em;
+  font-size: 1.05rem;
+  color: #1E3A8A;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.7em;
+  margin-bottom: 0.5em;
+}
+.flyer-card .icon {
+  font-size: 1.5em;
+}
+.flyer-footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 2em;
+}
+.flyer-cta {
+  font-size: 1.2rem;
+  color: #10B981;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+.flyer-qr img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  border: 2px solid #38BDF8;
+  background: #fff;
+}
+
+/* Zadnja strana */
+.flyer-products {
+  margin-bottom: 1.2em;
+}
+.flyer-products h2 {
+  color: #1E3A8A;
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+}
+.flyer-product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.2em 2.2em;
+}
+.flyer-product-cat {
+  min-width: 220px;
+  max-width: 320px;
+  background: #F1F5F9;
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(30,58,138,0.06);
+  padding: 0.8em 1.2em 0.7em 1.2em;
+  margin-bottom: 0.7em;
+  font-size: 1.01rem;
+}
+.flyer-product-cat .icon {
+  font-size: 1.2em;
+  margin-right: 0.3em;
+}
+.flyer-product-cat ul {
+  margin: 0.3em 0 0 0.7em;
+  padding: 0;
+  font-size: 0.97rem;
+  color: #111827;
+  line-height: 1.6;
+}
+.flyer-product-cat li {
+  margin-bottom: 0.2em;
+}
+.flyer-contact {
+  margin-top: 1.2em;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.flyer-contact-info {
+  font-size: 1.08rem;
+  color: #1E3A8A;
+  font-weight: 600;
+  margin-bottom: 0.5em;
+}
+.flyer-back-img {
+  width: 100%;
+  margin-top: 1.2em;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(30,58,138,0.10);
+}
+.flyer-back-img img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+@media (max-width: 900px) {
+  .flyer-container {
+    width: 98vw;
+    padding: 12px 2vw 12px 2vw;
+  }
+  .flyer-product-list {
+    flex-direction: column;
+    gap: 0.7em;
+  }
+}
+@media (max-width: 600px) {
+  .flyer-container {
+    width: 100vw;
+    padding: 0.5em 0.2em;
+  }
+  .flyer-header, .flyer-footer, .flyer-contact {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.7em;
+  }
+  .flyer-hero-img img, .flyer-back-img img {
+    height: 100px;
+  }
+} 
